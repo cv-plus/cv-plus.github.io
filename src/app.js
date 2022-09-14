@@ -16,7 +16,7 @@ console.log(aboutCheck)
 const root = document.querySelector('.main-content')
 console.log(root)
 page(decoration)
-// page('/',()=> console.log('ABOUT your'));
+
 page('/about',aboutPage)
 page('/education',educationPage)
 page('/skills',skillsPage)

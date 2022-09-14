@@ -1,10 +1,10 @@
 import {render, html} from './lib.js'
 
-const aboutTemplate = (homeOffers,username) => html`
-<p>Hello G.</p>`
+const educationTemplate = () => html`
+<p>educationTemplate</p>`
 
 export async function educationPage(ctx) {
     // updateLogin(null);
-  console.log('educationPage')
+  ctx.render(educationTemplate());
 
 }
