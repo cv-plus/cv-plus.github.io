@@ -3,8 +3,13 @@
 // import page from '../node_modules/page'
 
 import { aboutPage } from './about.js'
+import { certificatesPage } from './certificates.js'
+import { contactPage } from './contact.js'
 import { educationPage } from './education.js'
+import { interestsPage } from './interests.js'
 import {html,render, page} from './lib.js'
+import { projectPage } from './projects.js'
+import { skillsPage } from './skills.js'
 console.log('works')
 const aboutCheck = document.querySelector('.about')
 console.log(aboutCheck)
@@ -14,6 +19,11 @@ page(decoration)
 // page('/',()=> console.log('ABOUT your'));
 page('/about',aboutPage)
 page('/education',educationPage)
+page('/skills',skillsPage)
+page('/projects',projectPage)
+page('/certificates',certificatesPage)
+page('/interests',interestsPage)
+page('/contact',contactPage)
 
 page.start()
 
