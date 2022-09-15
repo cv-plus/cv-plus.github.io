@@ -18,6 +18,7 @@ console.log(root)
 page(decoration)
 
 page('/about',aboutPage)
+page('/',aboutPage)
 page('/education',educationPage)
 page('/skills',skillsPage)
 page('/projects',projectPage)
