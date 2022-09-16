@@ -190,7 +190,7 @@ p.first-name {
     letter-spacing: 2px;
 }
 
-.personal-info a {
+/* .personal-info a {
     color: grey;
     font-size: 1.5rem;
     letter-spacing: 2px;
@@ -200,9 +200,9 @@ p.first-name {
     transition: 0.7s;
 
     border: solid 1px #4e7055;
-}
+} */
 
-.personal-info a:hover {
+.hover-me:hover {
     color: white;
     background: #74957b;
     
@@ -236,4 +236,11 @@ border-bottom: 1px solid #4e7055;
 .green-me{
     color: #4e7055;
     font-size: 1.2em;
+}
+ul{
+    font-size: 1.25rem;
+    color: #74957b;
+}
+.dif-color{
+    color: #4e7055;
 }

@@ -190,19 +190,18 @@ p.first-name {
   letter-spacing: 2px;
 }
 
-.personal-info a {
-  color: grey;
-  font-size: 1.5rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 10px;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
-  border: solid 1px #4e7055;
-}
+/* .personal-info a {
+    color: grey;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.7s;
 
-.personal-info a:hover {
+    border: solid 1px #4e7055;
+} */
+.hover-me:hover {
   color: white;
   background: #74957b;
   border: solid 1px white;
@@ -242,5 +241,14 @@ p.first-name {
 .green-me {
   color: #4e7055;
   font-size: 1.2em;
+}
+
+ul {
+  font-size: 1.25rem;
+  color: #74957b;
+}
+
+.dif-color {
+  color: #4e7055;
 }
 /*# sourceMappingURL=style.css.map */

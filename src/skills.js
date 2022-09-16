@@ -5,12 +5,16 @@ const skillsTemplate = (homeOffers,username) => html`
 <p class="hi">Technical skills</p>
 <div class="group-skills">
     <img src="/img/js.png" alt="" class="icon-skills">
+    <img src="/img/ajax.png" alt="" class="icon-skills">
+
     <img src="/img/html.png" alt="" class="icon-skills">
     <img src="/img/css.png" alt="" class="icon-skills">
     <img src="/img/MongoDB.png" alt="" class="icon-skills">
     <img src="/img/express.png" alt="" class="icon-skills">
     <img src="/img/angular.png" alt="" class="icon-skills">
     <img src="/img/ts.png" alt="" class="icon-skills">
+    <img src="/img/responsiveDesign.png" alt="" class="icon-skills">
+
 </div>
 <p class="hi">Soft skills</p>
 
