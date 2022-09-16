@@ -1,13 +1,15 @@
 body {
-     margin: 0;
+    margin: 0;
     /* font-family: Roboto, "Helvetica Neue", sans-serif; */
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.main-content{
+
+.main-content {
     margin-left: 100px;
     margin-top: 200px;
     background-color: white;
 }
+
 .content {
     background-color: white;
     width: 100%;
@@ -15,7 +17,8 @@ body {
     display: flex;
     /* text-align: center; */
 }
-.menu{
+
+.menu {
     display: flex;
     flex-direction: column;
 
@@ -23,14 +26,13 @@ body {
     background-color: #0c0828;
     /* border-right: solid 2px black; */
     border-right: solid 2px #4e7055
-   
- 
 }
+
 /* .nav{
     border-top: 1px solid white;
 
 } */
-.options{
+.options {
     text-decoration: none;
     font-size: 1.4rem;
     letter-spacing: 5px;
@@ -40,37 +42,41 @@ body {
     border-bottom: 1px solid white; */
     color: white;
 }
-.picture{
+
+.picture {
     padding-top: 50px;
     padding-bottom: 50px;
     /* background: #040d22; */
-    background: #74957b;;
+    background: #74957b;
+    ;
     text-align: center;
 }
-.picture img{
+
+.picture img {
     /* padding-top: 50px;
     padding-bottom: 50px;
 
 background-color: blue;
 border: 20%; */
-/* height: 175px; */
-/* width: 175px; */
-width: 250px;
-height: 250px;
-border-radius: 50%;
-/* border: 16px solid #2928a7; */
-border: 16px solid #4e7055;
-text-align: center;
-/* clip-path: circle(); */
+    /* height: 175px; */
+    /* width: 175px; */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* border: 16px solid #2928a7; */
+    border: 16px solid #4e7055;
+    text-align: center;
+    /* clip-path: circle(); */
 
 }
-.spacer{
+
+.spacer {
     width: 100%;
     /* height: 100vh; */
     height: 100%;
     /* background: #040d22; */
     background: #74957b;
-    
+
 }
 
 /* .btn{
@@ -107,22 +113,24 @@ text-align: center;
 
 
 
-.btn{
+.btn {
     background: none;
-cursor: pointer;
-transition:color 0.4s linear;
-/* background-color: black; */
-background-color: #74957b;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    /* background-color: black; */
+    background-color: #74957b;
+    transition: 0.5s;
 
-text-align: center;
-/* position: relative; */
+    text-align: center;
+    /* position: relative; */
 }
-.btn:hover{
+
+.btn:hover {
     background: #4e7055;
     /* color: black; */
     font-weight: bolder;
     box-shadow: -11px 0px 30px 0px #4e7055;
-    
+
 }
 
 /* .btn:hover{
@@ -148,42 +156,84 @@ text-align: center;
     transform:scaleX(1);
 } */
 
-.hi{
+.hi {
     font-size: 2rem;
     color: grey;
     margin: 0;
+    margin-top: 10px;
 }
-.name{
+
+.name {
     display: flex;
-   
+
 }
-p.first-name{
-    
+
+p.first-name {
+
     font-size: 4.5rem;
     letter-spacing: .025em;
     margin: 0;
     margin-right: 0.7rem;
     color: #4e7055
 }
-.last-name{
+
+.last-name {
     font-size: 4.5rem;
     letter-spacing: .025em;
     margin: 0;
     color: #100c0cb3;
 }
-.personal-info p{
+
+.personal-info p {
     color: grey;
     font-size: 1.5rem;
     letter-spacing: 2px;
 }
-.personal-info a{
+
+.personal-info a {
     color: grey;
     font-size: 1.5rem;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
-}
-.personal-info a:hover{
-    color: #4e7055;
+    padding: 10px;
+    transition: 0.7s;
 
+    border: solid 1px #4e7055;
+}
+
+.personal-info a:hover {
+    color: white;
+    background: #74957b;
+    
+    border: solid 1px white
+}
+/* .contact-me i{
+    width: 100px;
+    height: 100px;
+    color: black;
+} */
+.icon-skills{
+    width: 70px;
+    height:70px;
+    margin-right: 10px;
+}
+.group-skills{
+margin-top: 40px;
+border-bottom: 1px solid #4e7055;
+    padding-bottom: 35px;
+}
+.soft-skills{
+    display: flex;
+    margin-top: 40px;
+    border-bottom: 1px solid #4e7055;
+    padding-bottom: 35px;
+}
+.soft-section{
+    text-align: center;
+    margin-right: 30px;
+}
+.green-me{
+    color: #4e7055;
+    font-size: 1.2em;
 }

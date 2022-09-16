@@ -11,8 +11,17 @@ import {html,render, page} from './lib.js'
 import { projectPage } from './projects.js'
 import { skillsPage } from './skills.js'
 console.log('works')
-const aboutCheck = document.querySelector('.about')
-console.log(aboutCheck)
+
+// document
+// .querySelectorAll('.opotions')
+// .forEach(
+//     (button)=>
+//      button.innerHTML =
+// '<div> <span>'+
+//  button.textContent.trim().split('').join('</span></div>') +
+// '</span></div>');
+// const aboutCheck = document.querySelector('.about')
+// console.log(aboutCheck)
 const root = document.querySelector('.main-content')
 console.log(root)
 page(decoration)
