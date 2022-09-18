@@ -2,8 +2,20 @@ import {render, html} from './lib.js'
 
 const contactTemplate = () => html`
 <section class="contact-me">
-    <i class="icon-test fas fa-cogs"></i>
-    <!-- <a href="https://linkedin.com/in/oagapov/" target="_blank" class="hover:text-green-500"><img src="img/social_linkedin.png" alt="LinkedIn" class="inline w-8 h-8 mx-1 sm:ml-0 sm:mr-1"> linkedin.com/in/oagapov/</a> -->
+    <p class="hi">Find me at:</p>
+ 
+    <div class="group-skills">
+        
+        <p class="current-job"><span class="dif-color"><img src="/img/mail.png" alt="" class="icon-skills"></span>georgiballabanov@gmail.com</p>
+        <p class="current-job"><span class="dif-color"><img src="/img/mail.png" alt="" class="icon-skills"> <a target="_blank" href="https://bg.linkedin.com/in/georgi-balabanov-366501210"> Here</a>
+        </span></p>
+        <p class="current-job"><span class="dif-color">LinkedIn:</span><img src="/img/mail.png" alt="" class="icon-skills"></p>
+     
+       
+        <a target="_blank" href="https://gcatering.github.io/"> <img class="icon-skills" src="/img/https.png" alt="" ></a>
+        
+
+    </div>
 </section>`
 
 export async function contactPage(ctx) {
