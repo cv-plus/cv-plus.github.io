@@ -41,3 +41,4 @@ function decoration(ctx,next){
     ctx.render = (content) => render(content,root)
       next()
     }
+ 

@@ -15,7 +15,7 @@ const interestsTemplate = (homeOffers,username) => html`
             <img src="/img/paragliding.png" alt="" class="icon-skills">
             <img src="/img/climbing.png" alt="" class="icon-skills">
 
-            <img src="/img/yoga.png" alt="" class="icon-skills">
+            <img src="/img/yoga.png" alt="" class="icon-skills yoga">
             <img src="/img/ski.png" alt="" class="icon-skills">
             <img src="/img/calisthenics.png" alt="" class="icon-skills">
 
