@@ -61,7 +61,8 @@ const projectsTemplate = (homeOffers,username) => html`
         <ul>- Access to their own offers.</ul>
         <ul>- Leave comments in offers</ul>
       <p class="current-job"><span class="dif-color">Backend and database:</span></p>
-        - Back4App platform with custom collections for users, categories, offers.</p>
+      <ul>- Back4App platform with custom collections for users, categories, offers.</ul>
+        </p>
     
         
         
@@ -81,11 +82,11 @@ const projectsTemplate = (homeOffers,username) => html`
         <img src="/img/responsiveDesign.png" alt="" class="icon-skills">
         
 
-    </div>
+   
     <p class="current-job"><span class="dif-color">Find project at</span></p>
     <a target="_blank" href="https://gcatering.github.io/"> <img class="icon-skills" src="/img/https.png" alt="" ></a>
     <a target="_blank" href="https://github.com/gCatering/gCatering.github.io"> <img class="icon-skills" src="/img/github.png" alt="" ></a>
-   
+</div>
 </div>
 
 
@@ -124,7 +125,9 @@ const projectsTemplate = (homeOffers,username) => html`
         <ul>- Access to profile page with info for user(account created, username and total likes) and own liked recipes.</ul>
         <ul>- Access to other users profile with recipes list.</ul>
       <p class="current-job"><span class="dif-color">Backend and database:</span></p>
-      - Back4App platform with custom collections for users and recipes.</p>
+      
+    <ul>- Back4App platform with custom collections for users and recipes.</ul>
+</p>
     
         
         
@@ -145,11 +148,11 @@ const projectsTemplate = (homeOffers,username) => html`
         <img src="/img/responsiveDesign.png" alt="" class="icon-skills">
         
 
-    </div>
-    <p class="current-job"><span class="dif-color">Find project at</span></p>
-    <a target="_blank" href="https://git-ball.github.io/mm/"> <img class="icon-skills" src="/img/https.png" alt="" ></a>
-    <a target="_blank" href="https://github.com/git-Ball/mm"> <img class="icon-skills" src="/img/github.png" alt="" ></a>
    
+    <p class="current-job"><span class="dif-color">Find project at</span></p>
+    <a target="_blank" href="https://gcatering.github.io/"> <img class="icon-skills" src="/img/https.png" alt="" ></a>
+    <a target="_blank" href="https://github.com/gCatering/gCatering.github.io"> <img class="icon-skills" src="/img/github.png" alt="" ></a>
+</div>
 </div>
 
 </section>`
