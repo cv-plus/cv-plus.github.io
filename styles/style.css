@@ -13,7 +13,7 @@ body {
   margin-left: 100px;
   margin-top: 200px;
   background-color: white;
-  width: 70%;
+  width: 60%;
 }
 
 .content {
@@ -207,6 +207,17 @@ p.first-name {
 
     border: solid 1px #4e7055;
 } */
+.contactBtn {
+  text-decoration: none;
+  color: #4e7055;
+  border: 1px solid #4e7055;
+  padding: 8px;
+  text-transform: uppercase;
+  -webkit-transition: 1s;
+  transition: 1s;
+  /* transition: transform 1s; */
+}
+
 .hover-me:hover {
   color: white;
   background: #74957b;
@@ -286,18 +297,14 @@ ul {
 
 .hide {
   opacity: 0;
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .show {
   opacity: 1;
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .gitHub {

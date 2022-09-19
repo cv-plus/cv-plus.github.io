@@ -11,7 +11,7 @@ const aboutTemplate = () => html`
     <p class="current-job">Currently: Technical IT Consultant</p>
     <p class="current-job">Company: Do It Wise</p>
     <p class="current-location">Location: Stara Zagora, Bulgaria</p>
-    <a class="hover-me" href="/contact">Contact me</a>
+    <a class="hover-me contactBtn" href="/contact">Contact me</a>
 </div>
 </section>`
 
