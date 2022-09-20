@@ -77,6 +77,8 @@ border: 20%; */
   /* border: 16px solid #2928a7; */
   border: 16px solid #4e7055;
   text-align: center;
+  -o-object-fit: cover;
+     object-fit: cover;
   /* clip-path: circle(); */
 }
 
