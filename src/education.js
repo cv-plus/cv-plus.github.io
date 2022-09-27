@@ -4,6 +4,26 @@ const educationTemplate = () => html`
 <section class="education" id="exp">
     <p class="hi">Experience</p>
     <div class="personal-info">
+        <p class="current-job"><span class="green-me">Period:</span> June - August 2022</p>
+        <p class="current-job"><span class="green-me">Role:</span> IT Consultant</p>
+        <p class="current-job"><span class="green-me">Company:</span> Do IT Wise</p>
+        <p class="current-job"><span class="green-me">Education:</span> Do IT Wise Academy</p>
+        <p class="current-location"><span class="green-me">Topics Covered:</span> </p>
+        <ul class="activities">ServiceNow Fundamentals</ul>
+        <ul class="activities">ServiceNow Discovery</ul>
+        <ul class="activities">ServiceNow CMDB</ul>
+        <ul class="activities">ServiceNow CSDM</ul>
+        <ul class="activities">Scripting in ServiceNow</ul>
+        <ul class="activities">SAFe</ul>
+        <ul class="activities">Introduction to ITIL</ul>
+        <ul class="activities">Services, Servers, Monitoring Concepts</ul> 
+        <ul class="activities">Networking & Operating Systems (Linux)</ul>
+        <ul class="activities">File Formats, Databases</ul>
+        <ul class="activities">Virtualization & Containers</ul>
+        <ul class="activities">Cloud Infrastructures</ul>
+
+    </div>
+    <div class="personal-info">
         <p class="current-job"><span class="green-me">Period:</span> Feb 2021 - 2022 may </p>
         <p class="current-job"><span class="green-me">Software University</span> SoftUni</p>
         
