@@ -329,6 +329,12 @@ ul {
   height: auto;
 }
 
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /* .glider-slide img {
     opacity: 0;
     transition: opacity .1s ease;
