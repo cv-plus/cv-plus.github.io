@@ -15,6 +15,8 @@ const skillsTemplate = (homeOffers,username) => html`
     <img src="/img/ts.png" alt="" class="icon-skills">
     <img src="/img/responsiveDesign.png" alt="" class="icon-skills">
     <img src="/img/servicenow..png" alt="" class="icon-skills">
+    <img src="/img/API.png" alt="" class="icon-skills">
+
 
 </div>
 <p class="hi">Soft skills</p>

@@ -32,7 +32,8 @@ const contactTemplate = () => html`
   <p class="current-job my-mail hide">georgiballabanov@gmail.com</p>
 </div>
 </div>
-</section>`
+</section>
+`
 
 export async function contactPage(ctx) {
     // updateLogin(null);
