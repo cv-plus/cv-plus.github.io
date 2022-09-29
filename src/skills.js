@@ -14,6 +14,7 @@ const skillsTemplate = (homeOffers,username) => html`
     <img src="/img/angular.png" alt="" class="icon-skills">
     <img src="/img/ts.png" alt="" class="icon-skills">
     <img src="/img/responsiveDesign.png" alt="" class="icon-skills">
+    <img src="/img/servicenow..png" alt="" class="icon-skills">
 
 </div>
 <p class="hi">Soft skills</p>
@@ -48,8 +49,24 @@ const skillsTemplate = (homeOffers,username) => html`
     </div>
 </div>
 
+<!-- 3rd -->
+<div class="group-skills">
+<p class="hi">Familiar with</p>
+
+<img src="/img/windows.png" alt="" class="icon-skills">
+<img src="/img/linux.png" alt="" class="icon-skills">
+
+<img src="/img/virtualization.png" alt="" class="icon-skills">
+<img src="/img/mySql.png" alt="" class="icon-skills">
+<img src="/img/dockler.png" alt="" class="icon-skills">
+
+
+
 </div>
-</section>`
+
+</div>
+</section>
+`
 
 export async function skillsPage(ctx) {
     // updateLogin(null);
