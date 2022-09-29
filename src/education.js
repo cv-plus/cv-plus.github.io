@@ -4,6 +4,19 @@ const educationTemplate = () => html`
 <section class="education" id="exp">
     <p class="hi">Experience</p>
     <div class="personal-info">
+        <p class="current-job"><span class="green-me">Period:</span> April - Today 2022</p>
+        <p class="current-job"><span class="green-me">Role:</span> IT Consultant</p>
+        <p class="current-job"><span class="green-me">Company:</span> Do IT Wise</p>
+       
+        <p class="current-location"><span class="green-me">Progress:</span> </p>
+        <ul class="activities">Certified System Administration (Certified)</ul>
+        <ul class="activities">ServiceNow Discovery (Certified)</ul>
+        <ul class="activities">ServiceNow CMDB (Micro Certified)</ul>
+        <ul class="activities">ServiceNow Service Mapping</ul>
+
+
+    </div>
+    <div class="personal-info">
         <p class="current-job"><span class="green-me">Period:</span> June - August 2022</p>
         <p class="current-job"><span class="green-me">Role:</span> IT Consultant</p>
         <p class="current-job"><span class="green-me">Company:</span> Do IT Wise</p>
