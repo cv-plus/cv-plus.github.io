@@ -32,20 +32,20 @@ const interestsTemplate = () => html`
 <div class="glide">
     <div class="glide__track" data-glide-el="track">
       <ul class="glide__slides">
-      <li class="glide__slide "><img class="certs" src="img/hobby/g5.jpg" alt=""></li>
-      <li class="glide__slide"><img class="certs" src="img/hobby/b2.JPG" alt=""></li>
-      <li class="glide__slide"><img class="certs" src="img/hobby/c1.JPG" alt=""></li>
+      <li class="glide__slide "><img class="certs plus" src="img/hobby/g5.jpg" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/b2.JPG" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/c1.JPG" alt=""></li>
       
-      <li class="glide__slide"><img class="certs" src="img/hobby/h2.jpg" alt=""></li>
-      <li class="glide__slide"><img class="certs" src="img/hobby/y1.JPG" alt=""></li>
-      <li class="glide__slide"><img class="certs" src="img/hobby/g3.jpg" alt=""></li>
-      <li class="glide__slide"><img class="certs" src="img/hobby/b2.jpg" alt=""></li>
-      <li class="glide__slide"><img class="certs" src="img/hobby/c2.jpg" alt=""></li>
-      <li class="glide__slide"><img class="certs" src="img/hobby/h1.jpg" alt=""></li>
-      <li class="glide__slide"><img class="certs" src="img/hobby/g7.jpg" alt=""></li>
-      <li class="glide__slide"><img class="certs" src="img/hobby/c5.jpg" alt=""></li>
-      <li class="glide__slide"><img class="certs" src="img/hobby/g6.jpg" alt=""></li>
-      <li class="glide__slide"><img class="certs" src="img/hobby/g4.jpg" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/h2.jpg" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/y1.JPG" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/g3.jpg" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/b2.jpg" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/c2.jpg" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/h1.jpg" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/g7.jpg" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/c5.jpg" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/g6.jpg" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/g4.jpg" alt=""></li>
         
         
      

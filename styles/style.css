@@ -346,4 +346,10 @@ ul {
 section.education > .personal-info {
   border-bottom: 1px solid #74957b;
 }
+
+.plus {
+  /* text-align: center; */
+  /* max-width: 289,98px;  */
+  max-height: 282.98px;
+}
 /*# sourceMappingURL=style.css.map */
