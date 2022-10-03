@@ -37,7 +37,8 @@ body {
     width: 20%;
     background-color: #74957b;
     /* border-right: solid 2px black; */
-    border-right: solid 2px #4e7055
+    border-right: solid 2px #4e7055;
+    overflow-x: hidden;
 }
 
 /* .nav{
@@ -133,12 +134,15 @@ border: 20%; */
     /* background-color: black; */
     background-color: #74957b;
     transition: 0.5s;
+    color: rgba(255, 255, 255, 0.829);
 
     text-align: center;
     /* position: relative; */
 }
 
 .btn:hover {
+    color: white;
+    transform: scale(1.1);
     background: #4e7055;
     /* color: black; */
     font-weight: bolder;

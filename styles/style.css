@@ -43,6 +43,7 @@ body {
   background-color: #74957b;
   /* border-right: solid 2px black; */
   border-right: solid 2px #4e7055;
+  overflow-x: hidden;
 }
 
 /* .nav{
@@ -135,11 +136,15 @@ border: 20%; */
   background-color: #74957b;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  color: rgba(255, 255, 255, 0.829);
   text-align: center;
   /* position: relative; */
 }
 
 .btn:hover {
+  color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   background: #4e7055;
   /* color: black; */
   font-weight: bolder;
