@@ -4,6 +4,7 @@
 /* @import "node_modules/@glidejs/glide/src/assets/sass/glide.theme"; */
 html {
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -393,11 +394,11 @@ section.education > .personal-info {
 }
 
 .curve .shape-fill {
-  fill: #74957b7a;
+  fill: #62af587a;
 }
 
 .curve-second .shape-fill-second {
-  fill: #62af587a;
+  fill: #4e70554d;
 }
 
 .curve-second {

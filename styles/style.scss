@@ -6,6 +6,7 @@
 
 html{
     height: 100%;
+    overflow-x: hidden;
 }
 body {
     margin: 0;
@@ -366,10 +367,12 @@ ul{
 }
 
 .curve .shape-fill{
-    fill: #74957b7a;
+    fill: #62af587a;
 }
 .curve-second .shape-fill-second {
-    fill: #62af587a;
+    fill: #4e70554d;
+    
+    
 }
 .curve-second {
     position: absolute;
