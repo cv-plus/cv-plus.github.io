@@ -13,6 +13,8 @@ const certTemplate = () => html`
             <li class="glide__slide"><img class="certs" src="img/cert/applications.jfif" alt=""></li>
             <li class="glide__slide"><img class="certs" src="img/cert/angular.jfif" alt=""></li>
             <li class="glide__slide"><img class="certs" src="img/cert/back end.jfif" alt=""></li>
+            <li class="glide__slide"><img class="certs" src="img/cert/csa.JPG" alt=""></li>
+            <li class="glide__slide"><img class="certs" src="img/cert/discovery.JPG" alt=""></li>
          
           </ul>
         </div>
