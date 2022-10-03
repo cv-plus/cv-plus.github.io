@@ -12,12 +12,13 @@ const aboutTemplate = () => html`
     <p class="current-job"><span class="green-me">Company:</span> Do It Wise</p>
     <!-- <p class="current-location"><span class="green-me"> <img src="/img/location.png" alt="" class="icon-skills"></span> Stara Zagora, Bulgaria</p> -->
    <div class="center-me">
-    <img src="/img/location.png" alt="" class="icon-skills">
-    <p class="current-location"> Stara Zagora, Bulgaria</p>
+    <img src="/img/location.png" alt="" class="icon-skills loc">
+    <p class="current-location"> <span class="green-me">Stara Zagora,</span>  Bulgaria</p>
 
    </div>
     <a class="hover-me contactBtn" href="/contact">Contact me</a>
 </div>
+
 </section>
 `
 

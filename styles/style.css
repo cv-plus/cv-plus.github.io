@@ -357,4 +357,57 @@ section.education > .personal-info {
   /* max-width: 289,98px;  */
   max-height: 282.98px;
 }
+
+.center-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loc {
+  width: 50px;
+  height: 50px;
+  margin-right: 18px;
+}
+
+.curve, .curve-second {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(195deg);
+          transform: rotate(195deg);
+}
+
+.curve svg, .curve-second svg {
+  position: relative;
+  display: block;
+  width: calc(180% + 1.3px);
+  height: 360px;
+}
+
+.curve .shape-fill {
+  fill: #74957b7a;
+}
+
+.curve-second .shape-fill-second {
+  fill: #62af587a;
+}
+
+.curve-second {
+  position: absolute;
+  top: 40px;
+  left: 654px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(195deg);
+  transform: rotate(188deg);
+}
 /*# sourceMappingURL=style.css.map */
