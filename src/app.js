@@ -42,26 +42,29 @@ function decoration(ctx,next){
     ctx.render = (content) => render(content,root)
       next()
     }
- let allBtnsFromMenu = document.querySelectorAll('.options').forEach(element => {
-   addEventListener('click',projectOptions)
+ let allBtnsFromMenu = Array.from(document.querySelectorAll('.options')).forEach(element => {
+   element.addEventListener('click',projectOptions)
+
  });
 //  let allBtnsFromMenu = document.querySelectorAll('.options').forEach((btn) => btn.addEventListener('click'),projectOptions)
   //.addEventListener('click',projectOptions)
   // allBtnsFromMenu.forEach(addEventListener('click',projectOptions))
- console.log(allBtnsFromMenu)
+//  console.log(allBtnsFromMenu)
 // let projectBtn = document.querySelector('.projects-btn').addEventListener('click', projectOptions)
   function projectOptions(e){
     // console.log(e)
   let mainContent = document.querySelector('.main-content')
 
     let eTarget = e.target;
+    // console.log(typeof eTarget)
    if(eTarget.classList.contains('projects-btn') ||eTarget.classList.contains('education')){
   mainContent.style.width = '75%'
-  console.log('flip')
+  // console.log('------75%')
 
    }
    else{
   mainContent.style.width = '60%'
+  // console.log('------60%')
 
    }
   // let mainContent = document.querySelector('.main-content')
