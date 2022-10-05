@@ -19,7 +19,11 @@ const aboutTemplate = () => html`
    <p class="hi">Find me at:</p>
  
    <div class="wrapper">
-   
+   <div class="contact-div">
+   <a target="_blank" href="https://t.me/georgi_balabanov"> <img class="icon-skills"
+           src="/img/telegram.png" alt=""></a>
+  
+  </div>
  
  <div class="contact-div">
    
@@ -28,12 +32,7 @@ const aboutTemplate = () => html`
  
  
    
-   <!-- <p class="current-job"><span class="dif-color"><img src="/img/mail.png" alt="" class="icon-skills"> <a target="_blank" href="https://bg.linkedin.com/in/georgi-balabanov-366501210"> Here</a>
-   </span></p>
-   <p class="current-job"><span class="dif-color">LinkedIn:</span><img src="/img/mail.png" alt="" class="icon-skills"></p>
- 
   
-   <a target="_blank" href="https://gcatering.github.io/"> <img class="icon-skills" src="/img/https.png" alt="" ></a> -->
    
  
  </div>
@@ -41,6 +40,7 @@ const aboutTemplate = () => html`
    <a target="_blank" href="https://bg.linkedin.com/in/georgi-balabanov-366501210"> <img class="icon-skills" src="/img/linkeIn.png" alt="" ></a>
  
  </div>
+
  <div class="contact-div">
    <img src="/img/mail.png" alt="" class="icon-skills mail-me">
    <p class="current-job my-mail hide">georgiballabanov@gmail.com</p>
