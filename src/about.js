@@ -44,6 +44,9 @@ const aboutTemplate = () => html`
  <div class="contact-div">
    <img src="/img/mail.png" alt="" class="icon-skills mail-me">
    <p class="current-job my-mail hide">georgiballabanov@gmail.com</p>
+   <button class="coppy-me">
+   <i class="fa fa-clone"></i>
+</button>
  </div>
  </div>
 </section>
@@ -61,6 +64,9 @@ let myMail = document.querySelector('.my-mail')
 
 console.log('CLICK')
 if(myMail.classList.contains('hide')){
+  let copyBtn = document.querySelector('.fa-clone')
+  console.log(copyBtn)
+  // copyBtn.style.display='block'
 myMail.classList.remove('hide')
 
 myMail.classList.toggle('show')
@@ -68,9 +74,31 @@ myMail.classList.toggle('show')
 }
 else{
 myMail.classList.remove('show')
+let copyBtn = document.querySelector('.fa-clone')
+console.log(copyBtn)
 
+// copyBtn.style.display='none'
 myMail.classList.toggle('hide')
 
 }
+})
+let coppyText = document.querySelector('.coppy-me')
+
+
+coppyText.addEventListener('click',function(){
+  let input = document.querySelector('.my-mail');
+
+
+  navigator.clipboard.writeText(input.innerHTML).then(function() {
+  //   console.log('Async: Copying to clipboard was successful!');
+  // }, function(err) {
+  //   console.error('Async: Could not copy text: ', err);
+  });
+  coppyText.classList.add("active");
+  window.getSelection().removeAllRanges();
+  setTimeout(function(){
+  coppyText.classList.remove("active");
+
+  },2500);
 })
 }
