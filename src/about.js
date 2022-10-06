@@ -44,7 +44,7 @@ const aboutTemplate = () => html`
  <div class="contact-div">
    <img src="/img/mail.png" alt="" class="icon-skills mail-me">
    <p class="current-job my-mail hide">georgiballabanov@gmail.com</p>
-   <button class="coppy-me">
+   <button class="coppy-me hide">
    <i class="fa fa-clone"></i>
 </button>
  </div>
@@ -57,33 +57,42 @@ export async function aboutPage(ctx) {
     // updateLogin(null);
 //   console.log('aboutPage')
 ctx.render(aboutTemplate());
-let toggleMailTest = document.querySelector('.mail-me')
-console.log(toggleMailTest)
+// let toggleMailTest = document.querySelector('.mail-me')
+// console.log(toggleMailTest)
 let toggleMail = document.querySelector('.mail-me').addEventListener('click',()=>{
 let myMail = document.querySelector('.my-mail')
+let coppyText = document.querySelector('.coppy-me')
 
 console.log('CLICK')
 if(myMail.classList.contains('hide')){
-  let copyBtn = document.querySelector('.fa-clone')
-  console.log(copyBtn)
+  // let copyBtn = document.querySelector('.fa-clone')
+  // console.log(copyBtn)
+  // console.log('show ...')
+coppyText.style.display='block'
   // copyBtn.style.display='block'
 myMail.classList.remove('hide')
-
+coppyText.classList.remove('hide')
 myMail.classList.toggle('show')
+coppyText.classList.toggle('show')
 
 }
 else{
 myMail.classList.remove('show')
+coppyText.classList.remove('show')
+
 let copyBtn = document.querySelector('.fa-clone')
-console.log(copyBtn)
+// console.log('hide ...')
+// coppyText.style.display='none'
+// console.log(copyBtn)
 
 // copyBtn.style.display='none'
 myMail.classList.toggle('hide')
-
+coppyText.classList.toggle('hide')
 }
 })
 let coppyText = document.querySelector('.coppy-me')
-
+// console.log('show ...')
+// coppyText.style.display='block'
 
 coppyText.addEventListener('click',function(){
   let input = document.querySelector('.my-mail');

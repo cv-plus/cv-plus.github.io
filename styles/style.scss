@@ -385,9 +385,20 @@ ul{
     transform: rotate(188deg);
     
 }
-.contact-me>.fa-clone{
-    display: hide;
+.coppy-me{
+    /* display: none; */
+    /* display: block; */
+    background: #808080ad;
+    border-radius: 7px;
+    padding: 6px;
+    border: 0.3px solid #f9f9f9;
+    margin-left: 5px;
+    /* transition: 0.5s; */
 }
+/* .coppy-me:hover{
+    transform: scale(1.1);
+
+} */
 /* .coppy-me:active{
     color: green;
 }
@@ -416,3 +427,15 @@ display: none;
 .coppy-me.active :after{
     display: block;
 } */
+
+.fa-clone{
+    color: #575454cc;
+    transition: 0.5s;
+
+}
+.fa-clone:hover{
+    cursor: pointer;
+    color:#74957b;
+    transform: scale(1.1);
+
+}
