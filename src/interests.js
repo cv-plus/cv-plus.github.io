@@ -47,8 +47,13 @@ const interestsTemplate = () => html`
       <li class="glide__slide"><img class="certs plus" src="img/hobby/g6.jpg" alt=""></li>
       <li class="glide__slide"><img class="certs plus" src="img/hobby/g4.jpg" alt=""></li>
         
-        
-     
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/b3.JPG" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/s1.jpg" alt=""></li>
+
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/c6.JPG" alt=""></li>
+    
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/s2.jpg" alt=""></li>
+      <li class="glide__slide"><img class="certs plus" src="img/hobby/b4.JPG" alt=""></li>
       </ul>
     </div>
     <div class="glide__arrows" data-glide-el="controls">
