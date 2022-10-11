@@ -12,7 +12,7 @@ const educationTemplate = () => html`
         <ul class="activities">Certified System Administration (Certified)</ul>
         <ul class="activities">ServiceNow Discovery (Certified)</ul>
         <ul class="activities">ServiceNow CMDB (Micro Certified)</ul>
-        <ul class="activities">ServiceNow Service Mapping</ul>
+        <ul class="activities">ServiceNow Service Mapping (Certified)</ul>
 
 
     </div>
