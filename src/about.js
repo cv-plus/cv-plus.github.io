@@ -41,9 +41,11 @@ const aboutTemplate = () => html`
  
  </div>
 
- <div class="contact-div">
+ <div class="contact-div mail-magic">
    <img src="/img/mail.png" alt="" class="icon-skills mail-me">
    <p class="current-job my-mail hide">georgiballabanov@gmail.com</p>
+   <p class="copied">Copied!</p>
+
    <button class="coppy-me hide">
    <i class="fa fa-clone"></i>
 </button>
@@ -96,8 +98,14 @@ let coppyText = document.querySelector('.coppy-me')
 
 coppyText.addEventListener('click',function(){
   let input = document.querySelector('.my-mail');
+  let copiedNotification = document.querySelector('.copied');
+  copiedNotification.style.opacity ='1'
 
+  const myTimeout = setTimeout(hideCoppied, 2000);
 
+function hideCoppied() {
+  copiedNotification.style.opacity ='0'
+}
   navigator.clipboard.writeText(input.innerHTML).then(function() {
   //   console.log('Async: Copying to clipboard was successful!');
   // }, function(err) {
