@@ -68,4 +68,5 @@ export async function educationPage(ctx) {
     // updateLogin(null);
   ctx.render(educationTemplate());
 
+  
 }
