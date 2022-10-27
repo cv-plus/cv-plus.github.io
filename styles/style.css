@@ -474,14 +474,17 @@ display: none;
 }
 
 .copied {
+  color: white !important;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
   opacity: 0;
   position: absolute;
   top: -34px;
   left: 389px;
-  color: white;
   border: solid 1px green;
   padding: 2px 22px 2px 22px;
   border-radius: 17px;
+  background: #74957b;
 }
 
 .mail-magic {
