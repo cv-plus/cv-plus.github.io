@@ -35,6 +35,10 @@ const educationTemplate = () => html`
         <ul class="activities">File Formats, Databases</ul>
         <ul class="activities">Virtualization & Containers</ul>
         <ul class="activities">Cloud Infrastructures</ul>
+        <span class="green-me">Activities:</span>
+        <ul class="activities">Coming soon..</ul>
+        <ul class="activities">Coming soon..</ul>
+        <ul class="activities">Coming soon..</ul>
 
     </div>
     <div class="personal-info">

@@ -428,6 +428,10 @@ section.education > .personal-info {
   /* transition: 0.5s; */
 }
 
+.mobile-nav {
+  display: none;
+}
+
 /* .coppy-me:hover{
     transform: scale(1.1);
 
@@ -489,5 +493,18 @@ display: none;
 
 .mail-magic {
   position: relative;
+}
+
+.toggle-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
