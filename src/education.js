@@ -4,7 +4,7 @@ const educationTemplate = () => html`
 <section class="education" id="exp">
     <p class="hi">Experience</p>
     <div class="personal-info">
-        <p class="current-job"><span class="green-me">Period:</span> April - Today 2022</p>
+    <p class="current-job"><span class="green-me">Period:</span> April 2022 - Till today </p>
         <p class="current-job"><span class="green-me">Role:</span> IT Consultant</p>
         <p class="current-job"><span class="green-me">Company:</span> Do IT Wise</p>
        
@@ -19,7 +19,7 @@ const educationTemplate = () => html`
     </div>
     <div class="personal-info">
         <p class="current-job"><span class="green-me">Period:</span> June - August 2022</p>
-        <p class="current-job"><span class="green-me">Role:</span> IT Consultant</p>
+   
         <p class="current-job"><span class="green-me">Company:</span> Do IT Wise</p>
         <p class="current-job"><span class="green-me">Education:</span> Do IT Wise Academy</p>
         <p class="current-location"><span class="green-me">Topics Covered:</span> </p>
